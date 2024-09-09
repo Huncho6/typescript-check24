@@ -1,7 +1,9 @@
 interface Vehicle {
   make: string; // The manufacturer of the vehicle (e.g., Toyota, Ford)
   model: string; // The model of the vehicle (e.g., Corolla, Mustang)
-  year: number; // The year the vehicle was made
+  year: number;
+  myCar: string; 
+  Car:string; // The year the vehicle was made
 
   // The start method is a function that doesn't return any value (void) and logs a message.
   start(): void;
@@ -17,6 +19,8 @@ class Car implements Vehicle {
     this.model = model;
     this.year = year;
   }
+  myCar: string;
+  Car: string;
 
   start(): void {
     console.log("Car engine started");

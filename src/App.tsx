@@ -1,5 +1,5 @@
-import Counter from "./Counter"
-import Greeting from "./Greeting"
+import Counter from "./Typescript/Counter"
+import Greeting from "./Typescript/Greeting"
 
 
 function App() {
